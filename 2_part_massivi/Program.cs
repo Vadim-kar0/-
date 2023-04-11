@@ -2,7 +2,7 @@
 
 //Первая запись массива и поиск максимального значения 
 
-/* int Max(int arg1, int arg2, int arg3)
+int Max(int arg1, int arg2, int arg3)
 {
     int result = arg1;
     if (arg2 > result) result = arg2;
@@ -21,11 +21,11 @@ int maxi = Max(
 
 Console.WriteLine(maxi);
 
- */
+
 
 //Вторая запись массива и поиск чего-то того что пока я не знаю
 
-/* 
+
 int[] array = {1, 12, 31, 4, 18, 15, 16, 17, 18};
 
 int n = array.Length;
@@ -43,14 +43,14 @@ while (index < n)
     }
     index++;
     //index = index + 1;
-} */
+}
 
 
 
 //Третья запись массива с использованием 
 //функций (методов) по заполнению и печати 
 
-/* void FillArray(int[] collection)
+void FillArray(int[] collection)
 {
     int Length = collection.Length;
     int index = 0;
@@ -108,7 +108,7 @@ PrintArray(array);
 Console.WriteLine();
 
 int pos = IndexOf(array, 444);
-Console.WriteLine(pos); */
+Console.WriteLine(pos);
 
 
 
