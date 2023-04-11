@@ -20,8 +20,8 @@ int maxi = Max(
     Max(array[6], array[7], array[8]));
 
 Console.WriteLine(maxi);
- */
 
+ */
 
 //Вторая запись массива и поиск чего-то того что пока я не знаю
 
@@ -43,8 +43,8 @@ while (index < n)
     }
     index++;
     //index = index + 1;
-}
- */
+} */
+
 
 
 //Третья запись массива с использованием 
