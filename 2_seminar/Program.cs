@@ -111,23 +111,23 @@ if (!(x > 5))
 // 34, 5 -> не кратно, остаток 4
 // 16, 4  -> кратно
 
-//  Console.WriteLine("Введите первое число");
+// Console.WriteLine("Введите первое число");
 // string text_a = Console.ReadLine();
 // int a = Convert.ToInt32(text_a);
 // Console.WriteLine("Введите второе число");
 // string text_b = Console.ReadLine();
 // int b = Convert.ToInt32(text_b);
 // int sf = a % b;
-// if( sf == 0)
+// if (sf == 0)
 // {
-//    Console.Write(" кратно ");
+//     Console.Write(" кратно ");
 // }
 
-// if(sf != 0)
+// if (sf != 0)
 // {
-//    Console.Write("Не кратно, остаток от деления : ");
-//    Console.Write(sf);
-// } 
+//     Console.Write("Не кратно, остаток от деления : ");
+//     Console.Write(sf);
+// }
 
 
 // Задача 3. Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно 7 и 23.
@@ -138,18 +138,18 @@ if (!(x > 5))
 
 
 
-Console.WriteLine("Введите число");
-string text_a = Console.ReadLine();
-int a = Convert.ToInt32(text_a);
+// Console.WriteLine("Введите число");
+// string text_a = Console.ReadLine();
+// int a = int.Parse(text_a);
 
-if(a % 7 == 0 && a % 23 ==0)
-{
-     Console.Write("число кратно 7 и 23");
-}
-else
-{
-    Console.Write("число не кратно 7 и 23");
-}
+// if(a % 7 == 0 && a % 23 ==0)
+// {
+//      Console.Write("число кратно 7 и 23");
+// }
+// else
+// {
+//     Console.Write("число не кратно 7 и 23");
+// }
 
 
 
